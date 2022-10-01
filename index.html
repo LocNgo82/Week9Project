@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+      <div class="navbar-header">
+        <img src="Lu passport2.png" alt="Logo" style="width:40px;">
+        <a class="navbar-brand" href="#">Loc's Website</a>
+      </div>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#aboutme">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#academics">My Academics</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contactme">Contact Me</a>
+        </li>
+      </ul>
+
+  </nav>
+  
+  <div class="container-fluid">
+    <!-- <a name="home" class="navbar-brand" href="#"><h3>Welcome</h3></a> -->
+    <a name="home" style="padding-top: 100px;"> <h2>Welcome</h2></a>
+   
+  <p>This is my home page.&nbsp; I am a student of <b>Front End
+    Software Developer Boot Camp</b> at Quinsigamond Community
+  College. You can find my personal interest in "About Me" page, and
+  my academic interest in "My academic Interest" page.&nbsp; If you
+  have any questions, please use "Contact me" page to send me an
+  email.&nbsp; Thank you.</p>
+  
+  <a name="aboutme" style="padding-top: 100px;"><h2>About Me</h2></a>
+      <p>
+      <b>I have a cat and a dog.&nbsp; My cat's name is GiGi, and my dog's
+        name is Daisy.</b>   
+      </p>
+      <!-- <img src="gg.jpeg" class="rounded mx-auto d-block" alt="My cat">
+      <img src="daisy.jpeg" class="rounded mx-auto d-block" alt="My dog"> -->
+      
+      <p>Click on the images to enlarge them.</p>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="gg.jpeg" target="_blank">
+              <img src="gg.jpeg" alt="Lights" style="width:100%">
+              <div class="caption">
+                <p><b>GG's picture.</b></p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="daisy.jpeg" target="_blank">
+              <img src="daisy.jpeg" alt="Nature" style="width:100%">
+              <div class="caption">
+                <p><b>Daisy's picture</b></p>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+      </div>
+      
+        <div class="row">
+          <div class="col-md-8">
+            <div class="thumbnail">
+              <a href="gg%20and%20lu%20kayaking.jpeg" target="_blank">
+                <img src="gg%20and%20lu%20kayaking.jpeg" alt="Lights" style="width:100%">
+                <div class="caption">
+                  <p><b>GG and I kayaking together.</b></p>
+                </div>
+              </a>
+            </div>
+          </div>
+          
+          
+        </div>
+      
+      
+    <a name="academics"><h2>My Academics Interests</h2></a>
+    <p>Here are the topics that I have learned from the last six weeks.</p>
+      <table class="table table-bordered">
+        <tbody>
+          <tr>
+            <th>Weekly</th>
+            <th>Topics</th>
+          </tr>
+          <tr>
+            <td>1<br>
+            </td>
+            <td>CLI, Source Control, and Variables<br>
+            </td>
+          </tr>
+          <tr>
+            <td>2<br>
+            </td>
+            <td>Conditions and Loops<br>
+            </td>
+          </tr>
+          <tr>
+            <td>3<br>
+            </td>
+            <td>Arrays and Functions<br>
+            </td>
+          </tr>
+          <tr>
+            <td>4<br>
+            </td>
+            <td>ECMAScript 6 and Intermediate JavaScript<br>
+            </td>
+          </tr>
+          <tr>
+            <td>5<br>
+            </td>
+            <td>Object Oriented Programming<br>
+            </td>
+          </tr>
+          <tr>
+            <td>6<br>
+            </td>
+            <td>DevTools, Debugging, and Unit Tests<br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <a name="contactme"><h2>Contact Me Form</h2></a>
+      
+      <!-- Stack form -->
+  <form>
+    
+    <div class="form-group">
+      <label for="firstname">First Name:</label>
+      <input type="text" class="form-control" id="firstname" placeholder="Enter First Name" name="first_name">
+    </div>
+    <div class="form-group">
+      <label for="lastname">Last Name:</label>
+      <input type="text" class="form-control" id="lastname" placeholder="Enter Last Name" name="last_name">
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+  </div>
+ </body>
+</html>
